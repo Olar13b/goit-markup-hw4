@@ -89,10 +89,15 @@ color: #434455;
 }
 
 .slogan{
-background: #2e2f42;
-padding: 188px 0;
+    background: rgba(46, 47, 66, 0.7);
+    padding: 188px 0;
 text-align: center;
-
+  background-image:   linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(/images/office.jpg);
+  background-size: cover;
 }
 
 .motto{
@@ -359,3 +364,15 @@ padding-left: 332px;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.advantage-container{
+   display: inline;
+    }
+    
+
+.container-advg{
+        display: flex; /* Enable Flexbox */
+         flex: 0 1 calc((100% - (24px * 3)) / 4); /* Divide the space evenly into 4 items */
+     
+    }
+    
