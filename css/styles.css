@@ -365,14 +365,70 @@ padding-left: 332px;
     overflow: hidden;
 }
 
-.advantage-container{
-   display: inline;
-    }
-    
+.advantage-icons{
+margin-top: 24px;
+margin-left: 104px;
+}
 
-.container-advg{
-        display: flex; /* Enable Flexbox */
-         flex: 0 1 calc((100% - (24px * 3)) / 4); /* Divide the space evenly into 4 items */
-     
-    }
+.advantage-icons-fon{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;;
+}
+
+.social-icon{
+fill: #e7e9fc;
+margin: 12px 0px 0px 12px;
+
+}
+
+
+
+.team-social-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    color: #afb1b8;
+    background-color: #4d5ae5;
     
+}
+
+.team-social-item{
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon-footer{
+fill: #e7e9fc;
+}
+
+.footer-social-item{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    color: #afb1b8;
+    background-color: #4d5ae5;
+}
+
+.footer-social-flex{
+    margin-left: 70px;
+    width: 206px;
+}
+
+.footer-social-text{
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #fff;
+}
