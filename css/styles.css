@@ -3,8 +3,13 @@ body{
     color: #434455;
     background: #fff;
     margin: 0;
+    height: 0;
+    width: 0;
 }
 
+p{
+    margin-bottom: 0;
+}
 
 .header{
     background-color: white;
